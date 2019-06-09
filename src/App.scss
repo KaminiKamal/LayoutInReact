@@ -1,0 +1,45 @@
+body{
+  margin:0;
+  .miniCardButton{
+    // text-align: -webkit-center;
+    // color: #9AA1FF;
+    // padding: 0.5em;
+    // cursor: pointer;
+    text-align: -webkit-center;
+    color: #9AA1FF;
+    padding: 5px;
+    cursor: pointer;
+    border-color: #ccc #efefef #efefef #ccc;
+    border-width: 1px;
+    border-style: solid;
+    border: 1px solid #9AA1FF #ccc #9AA1FF #ccc;
+    border-radius: 5px;
+    border-width: 1px;
+    border-color: #9AA1FF #ccc #9AA1FF #ccc;
+  }
+  .miniCardText{
+      text-align: -webkit-center;
+      color: #9AA1FF;
+      padding: 0.5em;
+      cursor: pointer;
+  }
+  .container-box{
+    
+    .mis-csr{
+      display: flex;
+      .layout-container{
+        // margin-left: 30%;
+        width: 100%;
+        padding:10px;
+        .customise-layout{
+          margin-left: 0;
+          transition: 0.5s;
+         }
+        .adjust-layout{
+          margin-left: 30%;
+          transition: 0.5s;
+         }
+      }
+    }
+  }
+}
